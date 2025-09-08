@@ -15,7 +15,7 @@ node{
     stage('Code Checkout')
        try{
         echo "checkout from git repo"
-        git 'https://github.com/vikulrepo/insurance-project.git'
+        git 'https://github.com/parameswar1-hub/insurance-project.git'
         }
        catch(Exception e){
             echo 'Exception occured in Git Code Checkout Stage'
